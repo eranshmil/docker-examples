@@ -1,0 +1,17 @@
+{
+  "name": "express-mongo",
+  "version": "1.0.0",
+  "repository": "https://github.com/eranshmil/docker-examples.git",
+  "author": "eranshmil",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon -L --inspect=0.0.0.0 server.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.7",
+    "nodemon": "^1.18.5"
+  }
+}

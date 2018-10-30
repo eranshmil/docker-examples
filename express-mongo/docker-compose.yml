@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  server:
+    restart: always
+    build: .
+    volumes:
+      - .:/server
+    environment:
+      - MONGODB_URI=mongodb://mongo:27017/test
+    ports:
+      - '3000:3000'
+      - '9229:9229'
+    depends_on:
+      - mongo
+    command:
+      - yarn
+      - watch
+
+  mongo:
+    image: mongo:latest
+    volumes:
+      - /data/db
+      - /data/configdb
+    ports:
+      - '27017:27017'
