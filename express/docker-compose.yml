@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  server:
+    restart: always
+    build: .
+    volumes:
+      - .:/server
+    ports:
+      - '3000:3000'
+      - '9229:9229'
+    command:
+      - yarn
+      - watch
