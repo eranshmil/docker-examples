@@ -1,7 +1,7 @@
 # Simple Docker Examples
 
-My Docker playground examples, written for learning purposes.
-Tested on MacOS. (Feel free to open a PR if you are using other platform)
+My Docker playground examples, written for learning purposes.<br />
+Tested on MacOS. (Feel free to open a PR if you are using other platform)<br />
 _Warning: may not be suitable for production use._
 
 ## What's in the box
