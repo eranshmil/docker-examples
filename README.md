@@ -65,7 +65,7 @@ For example:
     ...
     "scripts": {
         ...
-        "watch": "nodemon -L --inspect-brk=0.0.0.0 server.js"
+        "watch": "nodemon -L --inspect-brk=0.0.0.0"
     }
     ...
 }
@@ -79,7 +79,6 @@ For example:
 
 1. Add documentation about parameters used in Dockerfile and docker-compose.yml.
 1. Explain about the first example.
-1. Disable watch for unwanted files.
 1. Examples to add:
    - Angular container
    - Laravel container

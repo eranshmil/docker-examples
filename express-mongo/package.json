@@ -4,9 +4,13 @@
   "repository": "https://github.com/eranshmil/docker-examples.git",
   "author": "eranshmil",
   "license": "MIT",
+  "main": "./src/server.js",
   "scripts": {
     "start": "node server.js",
-    "watch": "nodemon -L --inspect=0.0.0.0 server.js"
+    "watch": "nodemon -L --inspect=0.0.0.0"
+  },
+  "nodemonConfig": {
+    "watch": "src/"
   },
   "dependencies": {
     "bluebird": "^3.5.2",
