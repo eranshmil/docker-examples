@@ -1,7 +1,7 @@
 # Simple Docker Examples
 
 My Docker playground examples, written for learning purposes.<br />
-Tested on MacOS, so feel free to open a PR if you are using other platform.<br />
+Tested on MacOS, so feel free to open a PR if you are using another platform.<br />
 _Warning: may not be suitable for production use._
 
 ## What's in the box
@@ -9,7 +9,7 @@ _Warning: may not be suitable for production use._
 Currently, each example uses [nodemon](https://github.com/remy/nodemon) for:
 
 1. Debugging
-1. Watching files and live reload the app
+1. Watching files and live-reload the app
 
 ## Usage
 
@@ -26,7 +26,7 @@ Currently, each example uses [nodemon](https://github.com/remy/nodemon) for:
    cd express-mongo
    ```
 
-1. Run the following command to create the containers.
+1. Run the following command to create the containers:
 
    ```bash
     docker-compose up
@@ -82,7 +82,6 @@ For example:
 1. Disable watch for unwanted files.
 1. Examples to add:
    - Angular container
-   - Express only configuration
    - Laravel container
 
 ## Resources
