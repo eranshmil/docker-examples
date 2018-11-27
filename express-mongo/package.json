@@ -13,9 +13,9 @@
     "watch": "src/"
   },
   "dependencies": {
-    "bluebird": "^3.5.2",
+    "bluebird": "^3.5.3",
     "express": "^4.16.4",
-    "mongoose": "^5.3.7",
-    "nodemon": "^1.18.5"
+    "mongoose": "^5.3.14",
+    "nodemon": "^1.18.7"
   }
 }
